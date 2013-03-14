@@ -1,0 +1,15 @@
+{
+  "title": "EdgePlate Project",
+  "author": "Ron Edgecomb II",
+  "name": "edgeplate-project",
+  "description": "EdgePlate Project",
+  "version": "0.1.0",
+  "dependencies": {
+    "angular" : "~1.0.5",
+    "angular-sanitize" : "~1.0.5",
+    "angular-resource" : "~1.0.5",
+    "jquery": "~1.9.1",
+    "bootstrap-sass": "~2.3.0",
+    "font-awesome": "~3.0.2"
+  }
+}
