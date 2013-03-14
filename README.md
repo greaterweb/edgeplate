@@ -3,7 +3,7 @@
 Application Boilerplate for Edge Front End Projects
 
 ## EdgePlate Project Structure
-
+ 
 - `dist` *directory dedicated to storing the distributed version of application*
 - `src` *all application, server, grunt tasks and web services source*
     - `src/app` *application source*
@@ -16,6 +16,16 @@ Application Boilerplate for Edge Front End Projects
             - `src/app/scripts/services` *angularjs services*
             - **`src/app/scripts/app.js`** *pimary javascript*
         - `src/app/styles` *application scss and css*
+            - `src/app/styles/directive` *scss for directive templates*
+            - `src/app/styles/fonts` *local font dependencies*
+            - `src/app/styles/images` *css image dependencies*
+            - `src/app/styles/layout` *scss for base layout templates*
+            - `src/app/styles/layout` *scss for page templates*
+            - `src/app/styles/tmpl` *scss for misc partial templates*
+            - **`src/app/styles/_mixins.scss`** *local mixins*
+            - **`src/app/styles/_styles.scss`** *global styles*
+            - **`src/app/styles/_variables.scss`** *bootstrap variable overrides*
+            - **`src/app/styles/app.scss`** *main stylesheet which brings in all style dependencies*
         - `src/app/views` *angularjs view and jade templates*
             - `src/app/views/directive` *angularjs directive templates*
             - `src/app/views/layout` *base layout templates*
@@ -33,3 +43,14 @@ Application Boilerplate for Edge Front End Projects
         - **`src/server/grunt.js`** *standalone specific express configuration*
     - `src/services` *node services available to application*
 - `test` *end-to-end and unit tests*
+- **`.editorconfig`** *editorconfig settings*
+- **`.jshintrc`** *jshint settings*
+- **`Gruntfile.js`** *grunt configurations*
+- **`package.json`** *npm application and development dependencies*
+- **`README.md`** *overly complex file detailing project, see self*
+
+### Local Structure Not Part of Git Repository
+
+- `.tmp` *used to store files temporarily during server and build tasks*
+- `.sass-cache` *used by compass task*
+- `node_modules` *home of all npm dependencies in* **`package.json`**
