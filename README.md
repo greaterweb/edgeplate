@@ -54,3 +54,28 @@ Application Boilerplate for Edge Front End Projects
 - `.tmp` *used to store files temporarily during server and build tasks*
 - `.sass-cache` *used by compass task*
 - `node_modules` *home of all npm dependencies in* **`package.json`**
+
+## TODO
+
+### Project Templates
+- [ ] app.js and related angularjs javascript setup
+- [ ] index.jade and related templates
+- [ ] express server configuration
+- [ ] application routes
+
+### Grunt Tasks
+- [ ] custom grunt server task(s)
+- [ ] custom grunt build task(s)
+- [ ] watch task config
+- [ ] open task config
+- [ ] clean task config
+- [ ] mocha task config
+- [ ] coffee task config
+- [ ] uglify task config
+- [ ] useminPrepare task config
+- [ ] usemin task config
+- [ ] imagemin task config
+- [ ] cssmin task config
+- [ ] htmlmin||ngmin task config
+- [ ] jade task config
+- [ ] copy task config
